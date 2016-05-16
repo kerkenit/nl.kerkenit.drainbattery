@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="nl.mvtk.drainbattery" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Drain Battery</name>
+    <description>
+        Drain your battery quick and easy
+    </description>
+    <author email="drainbattery@mvtk.nl" href="http://mvtk.nl">
+        Marco van 't Klooster
+    </author>
+    <content src="index.html" />
+    <gap:plugin name="com.rjfun.cordova.plugin.iad" version="0.1.0" />
+    <gap:plugin name="com.simplec.plugins.powermanagement" version="0.4.0" />
+    <gap:plugin name="org.apache.cordova.camera" version="0.2.4" />
+    <gap:plugin name="org.apache.cordova.battery-status" version="0.2.7" />
+    <gap:plugin name="org.apache.cordova.device-motion" version="0.2.6" />
+	<gap:plugin name="org.apache.cordova.device-orientation" version="0.3.5" />
+	<gap:plugin name="org.apache.cordova.geolocation" version="0.3.6" />
+	<gap:plugin name="org.apache.cordova.file-transfer" version="0.3.0" />
+    <access origin="*" />
+</widget>

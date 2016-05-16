@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "framework": {
+            "AdSupport.framework": {
+                "false": 1
+            },
+            "iAd.framework": {
+                "true": 1
+            },
+            "CoreMotion.framework": {
+                "false": 1
+            },
+            "ImageIO.framework": {
+                "true": 1
+            },
+            "CoreLocation.framework": {
+                "false": 1
+            },
+            "CoreGraphics.framework": {
+                "false": 1
+            },
+            "AssetsLibrary.framework": {
+                "false": 1
+            },
+            "MobileCoreServices.framework": {
+                "false": 1
+            },
+            "AudioToolbox.framework": {
+                "true": 1
+            }
+        },
+        "config.xml": {
+            "/*": {
+                "<feature name=\"iAd\"><param name=\"ios-package\" value=\"CDViAd\" /></feature>": 1,
+                "<feature name=\"PowerManagement\"><param name=\"ios-package\" value=\"PowerManagement\" /></feature>": 1,
+                "<feature name=\"Accelerometer\"><param name=\"ios-package\" value=\"CDVAccelerometer\" /></feature>": 1,
+                "<feature name=\"Compass\"><param name=\"ios-package\" value=\"CDVCompass\" /></feature>": 1,
+                "<feature name=\"Camera\"><param name=\"ios-package\" value=\"CDVCamera\" /></feature>": 1,
+                "<feature name=\"Geolocation\"><param name=\"ios-package\" value=\"CDVLocation\" /></feature>": 1,
+                "<feature name=\"Vibration\"><param name=\"ios-package\" value=\"CDVVibration\" /></feature>": 1,
+                "<feature name=\"Battery\"><param name=\"ios-package\" value=\"CDVBattery\" /></feature>": 1
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.rjfun.cordova.plugin.iad": {
+            "PACKAGE_NAME": "nl.mvtk.drainbattery"
+        },
+        "com.simplec.plugins.powermanagement": {
+            "PACKAGE_NAME": "nl.mvtk.drainbattery"
+        },
+        "org.apache.cordova.device-motion": {
+            "PACKAGE_NAME": "nl.mvtk.drainbattery"
+        },
+        "org.apache.cordova.device-orientation": {
+            "PACKAGE_NAME": "nl.mvtk.drainbattery"
+        },
+        "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "nl.mvtk.drainbattery"
+        },
+        "org.apache.cordova.geolocation": {
+            "PACKAGE_NAME": "nl.mvtk.drainbattery"
+        },
+        "org.apache.cordova.vibration": {
+            "PACKAGE_NAME": "nl.mvtk.drainbattery"
+        },
+        "org.apache.cordova.battery-status": {
+            "PACKAGE_NAME": "nl.mvtk.drainbattery"
+        }
+    },
+    "dependent_plugins": {}
+}
